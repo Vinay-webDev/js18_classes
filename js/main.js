@@ -732,7 +732,7 @@ console.log(myNewPizza.getCrust());
 // new concept called factory functions****
 // to help other developers to understand that these properties are private we have a naming convenction
 // so we use _ (this._crust)
-/*
+
 class Pizza {
     constructor (pizzaSize) {
         this._size = pizzaSize;
@@ -744,7 +744,7 @@ class Pizza {
     setCrust(pizzaCrust) {
         this._crust = pizzaCrust;
     }
-} */
+} 
 // however this._crust naming convenction didn't solve the problem here******
 /* we could still access the properties 
    we could still change the value of the properties
@@ -755,7 +755,7 @@ class Pizza {
 // factory function
 // this is an another method to create objects**
 // as the name suggests it's just a factory for creation of objects
-/*
+
 function pizzaFactory (pizzaSize) {
     const size = pizzaSize;
     const crust = "original";
@@ -770,11 +770,11 @@ function pizzaFactory (pizzaSize) {
 }
 
 const myPizza = new pizzaFactory("medium");
-myPizza.bake(); */
+myPizza.bake(); 
 
 // I got error let me try again!
 // factory function again ****
-/*
+
 function pizzaFactory(pizzaSize) {
     const size = pizzaSize;
     const crust = "original";
@@ -784,13 +784,13 @@ function pizzaFactory(pizzaSize) {
 }
 
 const myPizza = pizzaFactory("large");
-myPizza.bake(); */
+myPizza.bake(); 
 
 // this doesn't have full support through this version of browser*****
 
 // so we have another concept which works on almost on every version!
 // private and public fields******
-/*
+
 // **** the proprties which involves the parameters will always comes under or falls under constructor *****
 // **** the properties which do not involves the parameter will be above the constructor******
 class Pizza {
@@ -812,8 +812,8 @@ class Pizza {
     hereYouGo() {
         console.log(`Here's your ${this.#size} ${this.crust} ${this.#sauce} sauce pizza!`);
     }
-} */
-/*
+} 
+//////////////////////////////////////////////////////////////////////////////////////////
 const myPizza = new Pizza("large");
 myPizza.hereYouGo();
 console.log(myPizza.getCrust());
@@ -824,7 +824,7 @@ console.log(myPizza.sauce); // we can't access the private field***
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 // again
-/*
+
 class Pizza{
     crust = "original";
     #sauce = "traditional";
@@ -844,11 +844,11 @@ class Pizza{
 }
 const myPizza = new Pizza("larger");
 myPizza.hereYouGo();
-console.log(myPizza.getCrust()); */
+console.log(myPizza.getCrust()); 
 ///////////////////////////////////////////////////////////////////////////////
 // 22/02/2024
 // private field and public field
-/*
+
 class Pizza {
     // public field
     crust = "original"; // public field
@@ -875,25 +875,25 @@ class Pizza {
 // so let's create object out of this class***
 const myPizza = new Pizza("large");
 myPizza.hereYouGo();
-console.log(myPizza.getCrust()); */
+console.log(myPizza.getCrust()); 
 ////////////////////////////////////////////////////////////////////////////////////////////
 // 25/02/2024
 // class 
-/*
+
 class Pizza {
     constructor() {
         this.size = pizzaSize;
         this.crust = "original";
         this.type = ""
     }
-}*/
+}
 //==================================================================================================================================================
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //==================================================================================================================================================
 // 27/02/2024 
 // recalling:)*****
 //class 
-/*
+
 class Pizza {
     // properties comes under the constructor**
     constructor() {
@@ -924,10 +924,10 @@ myPizza.bake();
 console.log(myPizza.type);
 // we can also change or update any property inside the class just dot(.) notation
 // however this not desirable*** // so there another probably naming or new concept called getter and setter****
-myPizza.type = "supreme";*/
+myPizza.type = "supreme";
 /////////////////////////////
 // getter and setter method (get & set)
-/*
+
 class Pizza {
     constructor(pizzaType,pizzaSize) {
         this.type = pizzaType;
@@ -1106,8 +1106,8 @@ console.log(myPizza.getCrust());
 console.log(myPizza.crust);
 console.log(myPizza.size);
 console.log(myPizza.#size);
-*/
-//
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 class Pizza {
     //the properties which don't have parameter comes above the constructor
     crust = "original";
