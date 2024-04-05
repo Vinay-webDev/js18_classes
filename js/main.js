@@ -1,6 +1,6 @@
 // classes!!!!
 // keyword class***
-/*
+
 class pizza  {
     // we use constructor 
     constructor() {
@@ -28,7 +28,7 @@ class pizza  {
 
 ////////////////////////////////////////////////////////////////////////////////
 // class
-/*
+
 class pizza {
     constructor () {
         this.size = "medium";
@@ -44,9 +44,9 @@ myPizza.bake();
 // we console attributes too 
 console.log(myPizza.size);
 console.log(myPizza.crust);
-*/
+
 // class 
-/*
+
 class pizza {
     constructor() {
         this.size = "medium";
@@ -75,12 +75,12 @@ class pizza {
 
 const myPizza = new pizza();
 myPizza.bake();
-*/
+
 ////////////////////////////////////////////////////////////////////////////
 // class
 // pass in some parameters and value;
 // also we can pass in one or more parameters***
-/*
+
 class pizza {
     constructor(pizzaType,pizzaSize,pizzaCrust) {
         this.type = pizzaType;
@@ -93,12 +93,12 @@ class pizza {
 }                                                                                                                                             
 const myPizza = new pizza("peperoni","small","original");
 myPizza.bake();
-*/
+
 /////////////////////////////////////////////////////////
 /* we can change our property value just by using dot notation!
 however that's not desirable we don't want to access our property directly 
 like that****/
-/*
+
 class pizza {
     constructor(pizzaType,pizzaSize,pizzaCrust) {
         this.type = pizzaType;
@@ -125,7 +125,7 @@ myPizza.bake();
 */
 /////////////////////////////////////////////////////////////////////////////////////
 // class and pass in parameter and values
-/*
+
 class pizza {
     constructor(pizzaSize,pizzaType,pizzaCrust){
         this.size = pizzaSize;
@@ -147,10 +147,10 @@ const myPizza = new pizza("small","supreme");
 //myPizza.crust = "sausage";
 myPizza.pizzaCrust = "sausage";
 myPizza.bake();
-*/
+
 /////////////////////////////////////////////////////////////////////////
 // class (values, parameters, setter and getter method\
-/*
+
 class pizza {
     constructor(pizzaSize, pizzaType, pizzaCrust) {
         this.size = pizzaSize;
@@ -171,10 +171,10 @@ const myPizza = new pizza("small","supreme")
 myPizza.bake();
 myPizza.pizzaCrust = "original";
 myPizza.bake();
-*/
+
 ///////////////////////////////////////////////////////////////////////////////////
 // class pass in parameters and properties****
-/*
+
 class Pizza {
     constructor(pizzaSize, pizzaType, pizzaCrust) {
         this.size = pizzaSize;
@@ -199,10 +199,10 @@ myPizza.bake();
 console.log(myPizza.getCrust());
 // however this not usually what I do. I do like to refer to name directly 
 // and there easy method to it!
-*/
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // class pass in parameters and properties****
-/*
+
 class Pizza {
     constructor(pizzaSize, pizzaType) {
         this.size = pizzaSize;
@@ -238,12 +238,12 @@ console.log(myPizza.getToppings());
 
 
 // let's add another property to practice get set method!
-*/
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // javascript classes
 // inheritance****!!!! with classes!
 // let's create parent class 
-/*
+
 class Pizza {
     constructor(pizzaSize) {
         this.size = pizzaSize;
@@ -275,11 +275,11 @@ slice() {
 
 const mySpeciality = new specialityPizza("medium");
 mySpeciality.slice();
-*/
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // javascript classes!!
 // inheritance!
-/*
+
 class LandVehicle {
     constructor(LvWheels,LvDoors) {
         this.wheels = LvWheels;
@@ -301,10 +301,10 @@ const myTruck = new Truck(4);
 myTruck.startEngine();
 console.log(myTruck.doors);
 console.log(myTruck.wheels);
-*/
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 // class 
-/*
+
 class Animal {
     constructor(nameOfTheAnimal) {
         this.animal = nameOfTheAnimal;
@@ -329,11 +329,11 @@ class Birds extends Animal {
 
 const myBird = new Birds("Bald Eagle");
 console.log(myBird.fly());
-*/
+
 ///////////////////////////////////////////////////////////////////////////////////////////
 // 25/12/2023
 // class again!
-/*
+
 class pizza {
     constructor(pizzaSize,pizzaType) {
         this.size = pizzaSize;
@@ -355,9 +355,9 @@ const myPizza = new pizza("medium","supreme");
 myPizza.pizzaCrust = "pepperoni";
 myPizza.bake();
 
-*/
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
+
 class pizza {
     constructor(pizzaSize,pizzaType) {
         this.size = pizzaSize;
@@ -378,7 +378,7 @@ class pizza {
 const myPizza = new pizza("medium","pepperoni");
 myPizza.pizzaCrust = "supreme";
 myPizza.bake();
-*/
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 25/01/2024
 // back to the good old days
@@ -389,7 +389,7 @@ html css javascript mongo.db express.js react.js node.js */
 // must grind leet code problems to understand the fundamentals datastructures.
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // class 
-/*
+
 class pizza {
     consturctor (pizzaSize,pizzaType) {
         this.size = pizzaSize;
@@ -403,17 +403,16 @@ class pizza {
 
 const myPizza = new pizza ("medium","supreme");
 myPizza.bake();
-*/
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // class 12/02/2024
-/*
+
 class Pizza {
     
 }
-*/
+
 /////////////////////////////////////////////////////////////////////////////
 // writing a program to convert usd to inr****
-/*
+
 function convertUsdToInr (money) {
     let exchange = 80.00;
     let conversion = (money * exchange + " rupees/-");
@@ -421,11 +420,11 @@ function convertUsdToInr (money) {
     console.log(conversion);
 }
 convertUsdToInr(prompt("Enter your amount🤑: "));
-*/
+
 //////////////////////////////////////////////////////////////////////////////////
 // 15/02/2024
 // class again!!!
-/*
+
 class Pizza {
     constructor () {
         this.size = "medium";
@@ -439,8 +438,8 @@ class Pizza {
 
 const myPizza = new Pizza();
 myPizza.bake();
-*/
-/*
+///////////////////////////////////////////////////////////////////////////////////////////
+
 class Pizza {
     constructor (pizzaType,pizzaSize,pizzaCrust) {
         this.size = pizzaSize;
@@ -454,8 +453,8 @@ class Pizza {
 
 const myPizza = new Pizza("original","small","peperoni");
 myPizza.bake();
-*/
-/*
+//////////////////////////////////////////////////////////////////////////////////////
+
 class Pizza {
     constructor (pizzaSize,pizzaType) {
         this.size = pizzaSize;
@@ -472,14 +471,14 @@ myPizza.bake();
 myPizza.type = "supreme";
 myPizza.bake();
 console.log(myPizza.type);
-*/
+
 /* well this is not the desirable, we don't really want to access those 
 properties directly like that
 so to prevent that happening, really javascript doesn't prevent it from
 happening!
 so we need to understand the concept of getter and setter method!!!*** */
 
-/*
+
 class Pizza {
     constructor (pizzaSize,pizzaType) {
         this.size = pizzaSize;
@@ -502,10 +501,10 @@ const myPizza = new Pizza("small","peperoni");
 myPizza.pizzaCrust = "thin";
 myPizza.bake();
 console.log(myPizza.pizzaCrust);
-*/
+
 // let's make getter & setter method (instead of function)
 // these are more readable inside code****                                                                                                                                                                                                           
-/*
+
 class Pizza {
     constructor (pizzaSize,pizzaType) {
         this.size = pizzaSize;
@@ -523,19 +522,19 @@ class Pizza {
         console.log(`baking ${this.size} ${this.type} ${this.crust} crust pizza!`);
     }
 }
-/*
+
 const myPizza = new Pizza("small","peperoni");
 myPizza.pizzaCrust = "thin";
 myPizza.bake();
-console.log(myPizza.pizzaCrust); */
-/*
+console.log(myPizza.pizzaCrust); 
+
 const myPizza = new Pizza("small","peperoni");
 myPizza.setCrust("thin");
 myPizza.bake();
-console.log(myPizza.getCrust()); */
+console.log(myPizza.getCrust()); 
 
 // let's add one more property for our practice!***
-/*
+
 class Pizza {
     constructor (pizzaSize,pizzaType) {
         this.size = pizzaSize;
@@ -566,8 +565,9 @@ const myPizza = new Pizza("small","peperoni");
 myPizza.setToppings("sausage");
 myPizza.setToppings("olives");
 myPizza.bake();
-console.log(myPizza.getToppings()); */
-/*
+console.log(myPizza.getToppings()); 
+///////////////////////////////////////////////////////////////////////////////////////
+
 class Pizza {
     constructor (pizzaSize,pizzaType) {
         this.size = pizzaSize;
@@ -590,10 +590,10 @@ class Pizza {
     bake() {
         console.log(`baking ${this.size} ${this.type} ${this.crust} crust pizza!`);
     }
-} */
+} 
 ///////////////////////////////////////////////////////////// 
 // practice***
-/*
+
 class Pizza {
     constructor(pizzaSize,pizzaType) {
         this.type = pizzaType;
@@ -623,10 +623,10 @@ myPizza.setToppings("sausage");
 myPizza.setToppings("olives");
 myPizza.bake();
 console.log(myPizza.getCrust());
-console.log(myPizza.getToppings()); */
+console.log(myPizza.getToppings()); 
 
 //super class! (parent and child classes****)
-/*
+
 class Pizza {
     constructor(pizzaSize) {
         this.size = pizzaSize;
@@ -657,12 +657,12 @@ class specialityPizza extends Pizza {
 class from the parent class or super class.
 it just a blueprint to child class, so we need to create
 object from child class only!* */
-/*
+
 const myNewPizza = new specialityPizza("medium");
 myNewPizza.slice();
-console.log(myNewPizza.size); */
+console.log(myNewPizza.size); 
 ///////////////////////////////////////////////////////////////////////////////////
-/*
+
 class Pizza {
     constructor (pizzaType,pizzaSize) {
         this.type = pizzaType;
@@ -695,10 +695,10 @@ myPizza.bake();
 //console.log(getCrust()); // sh!tty error that always keeps happening to me😤
 //console.log(getToppings());
 console.log(myPizza.getCrust());
-console.log(myPizza.getToppings()); */
+console.log(myPizza.getToppings()); 
 ///////////////////////
 // super class or parent class
-/*
+
 class Pizza {
     constructor (pizzaSize) {
         this.size = pizzaSize;
@@ -725,7 +725,7 @@ class specialityPizza extends Pizza {
 const myNewPizza = new specialityPizza("medium");
 myNewPizza.setCrust("thin");
 myNewPizza.slice();
-console.log(myNewPizza.getCrust());*/
+console.log(myNewPizza.getCrust());
 
 // however the getter and setter methods are not that good, it can be easily changed 
 // just by regular update method or dot(.) notation, the name convention is need to be changed to do that we have
